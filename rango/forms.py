@@ -33,7 +33,7 @@ class PageForm(forms.ModelForm):
     class Meta:
         # Provide an association between the ModelForm and a model
         model = Page
-        fields = ('title',)
+        fields = ('title','url',)
     
 class Meta:
     # Provide an association between the ModelForm and a model
